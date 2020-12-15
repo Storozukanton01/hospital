@@ -1,0 +1,58 @@
+$font_src: '../fonts';
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('#{$font_src}/GlacialIndifference-Regular/GlacialIndifference-Regular.eot');
+    src: local('Glacial Indifference Regular'), local('GlacialIndifference-Regular'),
+        url('#{$font_src}/GlacialIndifference-Regular/GlacialIndifference-Regular.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_src}/GlacialIndifference-Regular/GlacialIndifference-Regular.woff2') format('woff2'),
+        url('#{$font_src}/GlacialIndifference-Regular/GlacialIndifference-Regular.woff') format('woff'),
+        url('#{$font_src}/GlacialIndifference-Regular/GlacialIndifference-Regular.ttf') format('truetype'),
+        url('#{$font_src}/GlacialIndifference-Regular/GlacialIndifference-Regular.svg#GlacialIndifference-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('#{$font_src}/GlacialIndifference-Italic/GlacialIndifference-Italic.eot');
+    src: local('Glacial Indifference Italic'), local('GlacialIndifference-Italic'),
+        url('#{$font_src}/GlacialIndifference-Italic/GlacialIndifference-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_src}/GlacialIndifference-Italic/GlacialIndifference-Italic.woff2') format('woff2'),
+        url('#{$font_src}/GlacialIndifference-Italic/GlacialIndifference-Italic.woff') format('woff'),
+        url('#{$font_src}/GlacialIndifference-Italic/GlacialIndifference-Italic.ttf') format('truetype'),
+        url('#{$font_src}/GlacialIndifference-Italic/GlacialIndifference-Italic.svg#GlacialIndifference-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('#{$font_src}/GlacialIndifference-Bold/GlacialIndifference-Bold.eot');
+    src: local('Glacial Indifference-Bold'), local('GlacialIndifference-Bold'),
+        url('#{$font_src}/GlacialIndifference-Bold/GlacialIndifference-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_src}/GlacialIndifference-Bold/GlacialIndifference-Bold.woff2') format('woff2'),
+        url('#{$font_src}/GlacialIndifference-Bold/GlacialIndifference-Bold.woff') format('woff'),
+        url('#{$font_src}/GlacialIndifference-Bold/GlacialIndifference-Bold.ttf') format('truetype'),
+        url('#{$font_src}/GlacialIndifference-Bold/GlacialIndifference-Bold.svg#GlacialIndifference-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Funky Signature';
+    src: url('#{$font_src}/FunkySignature/FunkySignature.eot');
+    src: local('Funky Signature'), local('FunkySignature'),
+        url('#{$font_src}/FunkySignature/FunkySignature.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_src}/FunkySignature/FunkySignature.woff2') format('woff2'),
+        url('#{$font_src}/FunkySignature/FunkySignature.woff') format('woff'),
+        url('#{$font_src}/FunkySignature/FunkySignature.ttf') format('truetype'),
+        url('#{$font_src}/FunkySignature/FunkySignature.svg#FunkySignature') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

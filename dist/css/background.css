@@ -1,0 +1,23 @@
+.welcome.startpage {
+    background-image: url('images/welcome.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .welcome.startpage {
+        background-image: url('images/welcome_desktop.png');
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .doctors__top {
+        background-image: url('images/doctors.png');
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .instruments__top {
+        background-image: url('images/instruments.png');
+    }
+}
